@@ -1,0 +1,39 @@
+
+div {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color:white;
+    font-size: 32px;
+    padding: 5px;
+}
+
+#big_div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo{
+    width: 80px;
+}
+
+.items:hover{
+    background-color: grey;
+    opacity: 0.5;
+}
+
+.home{
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#myInput {
+    width: 20%; 
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 7px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+    display: flex;
+    justify-content: center;
+  }
+  
